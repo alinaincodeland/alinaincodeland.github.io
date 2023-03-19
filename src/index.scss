@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;0,800;1,700&family=PT+Sans:ital@0;1&display=swap");
+
+:root {
+  --black: #333;
+  --white: #fff;
+  --light-grey: #a2a2a2;
+  --grey: #8892b0;
+  --dark-grey: #495670;
+  --golden: #e2c78c;
+  --green: #64ffda;
+  --blue: #57cbff;
+  --light-tone: #112240;
+  --tone: #0a192f;
+  --tone-shadow: rgba(2, 12, 27, 0.7);
+  --borderRed: 2px solid red;
+  --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  --red: rgba(214, 77, 84, 1);
+  --blue-violet: rgba(98, 104, 185, 1);
+  --light-green: rgba(161, 197, 161, 1);
+  --victoria: rgba(67, 72, 153, 1);
+  --kimberly: rgba(100, 100, 147, 1);
+  --peach: rgba(208, 151, 143, 1);
+  --sandal: rgba(178, 139, 115, 1);
+  --aqua-forest: rgba(104, 172, 108, 1);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font: inherit;
+}
+
+html {
+  width: 100vw;
+  max-width: 1850px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: var(--black);
+    font: normal 1rem/1.5;
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    color: var(--black);
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    transition: var(--transition);
+  }
+}
+
+/* ========= */
+/* ERROR 404 */
+/* ========= */
+
+.error-404 {
+  text-align: center;
+  margin: 3em;
+  color: var(--golden);
+}
+
+/* =========== */
+/* Headers */
+/* =========== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+/* =========== */
+/* Links state */
+/* =========== */
+
+a {
+  &:link {
+    text-decoration: none;
+    color: var(--grey);
+  }
+
+  &:visited {
+    color: var(--grey);
+  }
+
+  &:hover {
+    color: var(--golden);
+  }
+
+  &:active {
+    color: var(--golden);
+  }
+}
+
+// Hero
+
+.hero {
+  height: fit-content;
+  background-color: khaki;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.hero-section {
+  width: 1160px !important;
+  margin: auto;
+}
+
+.hero-title {
+  margin-bottom: 2rem;
+  font-size: 56px;
+  max-width: 550px;
+}
+
+.hero-title-span {
+  color: #a876f5;
+  font-size: 44px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  max-width: 480px;
+}
+
+.hero-demo-button {
+  border-radius: 30px;
+  padding: 20px 30px;
+  background-color: #a876f5;
+  color: #fff;
+  text-align: center;
+  box-shadow: none !important;
+  margin-top: 1rem;
+}
+
+.hero-container-image {
+  margin: auto;
+}
+
+.hero-image-main {
+  float: right;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+  .hero-section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 330px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero-demo-button {
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-image-main {
+    margin: auto;
+  }
+}
