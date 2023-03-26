@@ -32,16 +32,20 @@ export default function Projects() {
               <MDBCardBody>
                 <MDBCardTitle>EdMundo</MDBCardTitle>
                 <MDBCardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Full stack schooling platform for educational institutions
+                  that require a sudden transition to online learning built with
+                  MERN stack.
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardBody className="project-links">
-                <MDBCardLink href="#">
+                <MDBCardLink href="#" target="_blank">
                   <img src={Live} alt="deployed-website" />
                 </MDBCardLink>
-                <MDBCardLink href="#">
-                  <img src={GitHubRepo} alt="live-repo" />
+                <MDBCardLink
+                  target="_blank"
+                  href="https://github.com/alinaincodeland/EdMundo"
+                >
+                  <img src={GitHubRepo} alt="github-repo" />
                 </MDBCardLink>
               </MDBCardBody>
             </MDBCard>
@@ -52,35 +56,15 @@ export default function Projects() {
               <MDBCardBody>
                 <MDBCardTitle>DCI Connect</MDBCardTitle>
                 <MDBCardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Full stack mentorship platform that connects current DCI
+                  students and alumni built with Next.js and MongoDB.
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardBody className="project-links">
-                <MDBCardLink href="#">
-                  <img src={Live} alt="deployed-website" />
-                </MDBCardLink>
-                <MDBCardLink href="#">
-                  <img src={GitHubRepo} alt="live-repo" />
-                </MDBCardLink>
-              </MDBCardBody>
-            </MDBCard>
-          </MDBCol>
-          <MDBCol md={6}>
-            <MDBCard className="project-card">
-              <MDBCardImage position="top" alt="..." src={HelloFresh} />
-              <MDBCardBody>
-                <MDBCardTitle>Hello Fresh Replica</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </MDBCardText>
-              </MDBCardBody>
-              <MDBCardBody className="project-links">
-                <MDBCardLink href="#">
-                  <img src={Live} alt="deployed-website" />
-                </MDBCardLink>
-                <MDBCardLink href="#">
+                <MDBCardLink
+                  href="https://github.com/alinaincodeland/DCI-connect"
+                  target="_blank"
+                >
                   <img src={GitHubRepo} alt="live-repo" />
                 </MDBCardLink>
               </MDBCardBody>
@@ -92,15 +76,41 @@ export default function Projects() {
               <MDBCardBody>
                 <MDBCardTitle>Weather App</MDBCardTitle>
                 <MDBCardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Weather application displaying weather forecast for 5 days
+                  built using Open Weather API and Geo API, React and CSS.
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardBody className="project-links">
-                <MDBCardLink href="#">
+                <MDBCardLink
+                  href="https://world-weather-app-react.netlify.app/"
+                  target="_blank"
+                >
                   <img src={Live} alt="deployed-website" />
                 </MDBCardLink>
-                <MDBCardLink href="#">
+                <MDBCardLink
+                  href="https://github.com/alinaincodeland/weather-app-react"
+                  target="_blank"
+                >
+                  <img src={GitHubRepo} alt="live-repo" />
+                </MDBCardLink>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
+          <MDBCol md={6}>
+            <MDBCard className="project-card">
+              <MDBCardImage position="top" alt="..." src={HelloFresh} />
+              <MDBCardBody>
+                <MDBCardTitle>Hello Fresh Replica</MDBCardTitle>
+                <MDBCardText>
+                  Partial replica of a HelloFresh meal kit delivery website
+                  built using React, Node and Tailwind.
+                </MDBCardText>
+              </MDBCardBody>
+              <MDBCardBody className="project-links">
+                <MDBCardLink
+                  href="https://github.com/alinaincodeland/hello-fresh"
+                  target="_blank"
+                >
                   <img src={GitHubRepo} alt="live-repo" />
                 </MDBCardLink>
               </MDBCardBody>
