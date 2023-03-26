@@ -1,5 +1,5 @@
 .project-container {
-  background-color: #cbdd7d;
+  background-color: #9fa9e2;
   padding-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
@@ -10,12 +10,19 @@
   margin: auto !important;
 }
 
-.project-title {
-    display: block;
-    font-weight: 600;
-    color: black;
-    font-size: 56px;
-    margin-bottom: 2.5rem;
-    text-align: center;
+.project-card {
+  margin: 20px;
+  border: 20px solid white;
+  background-color: white;
+  border-radius: 30px;
+  object-fit: cover;
+}
 
+.project-title {
+  display: block;
+  font-weight: 600;
+  color: black;
+  font-size: 56px;
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
