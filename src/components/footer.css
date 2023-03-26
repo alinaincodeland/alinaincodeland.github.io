@@ -1,0 +1,14 @@
+.footer {
+  max-width: 1160px !important;
+  margin: auto !important;
+  font-size: large;
+}
+
+.footer-section {
+  margin-top: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.footer-name {
+  float: right;
+}
