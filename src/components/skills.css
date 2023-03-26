@@ -1,0 +1,21 @@
+.skills-container {
+    background-color: #eccc57de;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    height: fit-content;
+}
+
+
+.skills-container-row {
+    max-width: 1160px !important;
+    margin: auto !important;
+  }
+  
+  .skills-title {
+      display: block;
+      font-weight: 600;
+      color: white;
+      font-size: 56px;
+      margin-bottom: 2.5rem;
+  
+  }
