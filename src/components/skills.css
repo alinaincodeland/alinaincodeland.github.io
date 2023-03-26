@@ -42,9 +42,8 @@ border-radius: 25px;
 }
 
 .icon:hover {
-    box-shadow: 13px 13px 14px 14px rgba(0,0,0,0.1) !important;
+  box-shadow:  0 0 20px gray;
 }
-
 .icon-name {
    
 }

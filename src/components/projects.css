@@ -11,11 +11,11 @@
 }
 
 .project-card {
-  margin: 20px;
-  border: 20px solid white;
-  background-color: white;
-  border-radius: 30px;
-  object-fit: cover;
+margin-bottom: 1.5rem;
+}
+
+.project-card:hover {
+  box-shadow:  0 0 20px gray;
 }
 
 .project-title {
@@ -25,4 +25,10 @@
   font-size: 56px;
   margin-bottom: 2.5rem;
   text-align: center;
+}
+
+.project-links {
+  display: flex;
+  margin: auto;
+
 }

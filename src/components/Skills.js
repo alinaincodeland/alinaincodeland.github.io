@@ -17,6 +17,7 @@ import Saas from "../assets/saas.png";
 import Vsc from "../assets/vsc.png";
 import Tailwind from "../assets/tailwind.png";
 import Slack from "../assets/slack.png";
+import Trello from "../assets/trello.png";
 
 export default function Skills() {
   const [isHovering, setIsHovering] = useState(false);
@@ -39,7 +40,7 @@ export default function Skills() {
         </MDBRow>
         <MDBContainer className="skills-container-row">
           <MDBRow>
-            <MDBCol md={2} className="icon-column">
+            <MDBCol sm={2} className="icon-column">
               <div>
                 <img src={JS} alt="JS-icon" className="icon" />
               </div>
@@ -152,7 +153,15 @@ export default function Skills() {
               <img src={Vsc} alt="VSC-icon" className="icon" />
             </div>
             <div>
-              <p className="icon-name"> Visual Studio Code</p>
+              <p className="icon-name"> VS Code</p>
+            </div>
+          </MDBCol>
+          <MDBCol md={2} className="icon-column">
+            <div>
+              <img src={Slack} alt="Slack-icon" className="icon" />
+            </div>
+            <div>
+              <p className="icon-name">Slack</p>
             </div>
           </MDBCol>
           <MDBCol md={2} className="icon-column">
@@ -165,14 +174,6 @@ export default function Skills() {
           </MDBCol>
           <MDBCol md={2} className="icon-column">
             <div>
-              <img src={Canva} alt="Canva-icon" className="icon" />
-            </div>
-            <div>
-              <p className="icon-name">Canva</p>
-            </div>
-          </MDBCol>
-          <MDBCol md={2} className="icon-column">
-            <div>
               <img src={Notion} alt="Notion-icon" className="icon" />
             </div>
             <div>
@@ -181,10 +182,18 @@ export default function Skills() {
           </MDBCol>
           <MDBCol md={2} className="icon-column">
             <div>
-              <img src={Slack} alt="Slack-icon" className="icon" />
+              <img src={Trello} alt="Trello-icon" className="icon" />
             </div>
             <div>
-              <p className="icon-name">Slack</p>
+              <p className="icon-name">Trello</p>
+            </div>
+          </MDBCol>
+          <MDBCol md={2} className="icon-column">
+            <div>
+              <img src={Canva} alt="Canva-icon" className="icon" />
+            </div>
+            <div>
+              <p className="icon-name">Canva</p>
             </div>
           </MDBCol>
         </MDBContainer>
