@@ -12,7 +12,7 @@ import {
 } from "mdb-react-ui-kit";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import "./contactForm.css";
-import Binoculars from "../assets/binoculars-girl.png";
+import GirlWithLaptop from "../assets/girl-with-laptop.gif";
 
 const ContactForm = () => {
   const [showModal, setShowModal] = useState(false);
@@ -46,6 +46,9 @@ const ContactForm = () => {
     <div className="contact-form-component">
       <MDBContainer className="contact-form-section" id="contact">
         <MDBRow className="contact-form-container">
+          <MDBCol md="5" className="contact-form-image">
+            <img src={GirlWithLaptop} alt="girl-with-laptop" />
+          </MDBCol>
           <MDBCol md="6" className="mb-0">
             <div>
               <h1 className="contact-form-title-text">Get in touch </h1>
@@ -100,9 +103,6 @@ const ContactForm = () => {
                 </MDBModalContent>
               </MDBModalDialog>
             </MDBModal>
-          </MDBCol>
-          <MDBCol md="5" className="contact-form-image">
-            <img src={Binoculars} alt="" />
           </MDBCol>
         </MDBRow>
       </MDBContainer>

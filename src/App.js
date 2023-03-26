@@ -1,10 +1,9 @@
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { useState } from "react";
 import ContactForm from "./components/ContactForm.js";
 import "./index.scss";
 import "./reset.scss";
 import Hero from "./components/Hero.js";
+import Projects from "./components/Projects.js";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,8 +11,8 @@ export default function Home() {
   return (
     // <div className={darkMode ? "dark" : ""}>
     <div>
-      {" "}
       <Hero />
+      <Projects />
       <ContactForm />
     </div>
 

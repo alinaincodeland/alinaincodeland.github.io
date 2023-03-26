@@ -1,22 +1,22 @@
 .contact-form-component {
-    background-color: #fadcd2;
+    background-color: #d8e7523f;
     padding-top: 96px;
     padding-bottom: 96px;
     height: fit-content;
 }
 
 .contact-form-section {
+    max-width: 1160px !important;
     
     margin: auto;
 }
 
 .contact-form-container {
     margin-bottom: 0px;
-    max-width: 1160px !important;
+
 }
 
 .contact-form-title-text {
-    /* font-weight: 500; */
     line-height: 1.2;
     margin-bottom: 2rem;
     color: #a876f5;
