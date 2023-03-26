@@ -4,7 +4,7 @@ import "./skills.css";
 
 export default function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <MDBContainer className="skills-container-row">
         <MDBRow>
           <h1 className="skills-title"> My skills</h1>

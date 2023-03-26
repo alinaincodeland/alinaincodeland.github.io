@@ -4,7 +4,7 @@ import "./projects.css";
 
 export default function Projects() {
   return (
-    <div className="project-container">
+    <div className="project-container" id="projects">
       <MDBContainer className="project-container-row">
         <MDBRow>
           <h1 className="project-title">My projects</h1>

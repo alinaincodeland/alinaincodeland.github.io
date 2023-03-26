@@ -7,10 +7,12 @@ import ContactForm from "./components/ContactForm.js";
 import Footer from "./components/Footer";
 import ScrollToTop from "react-scroll-up";
 import { BsArrowUpCircle } from "react-icons/bs";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <Skills />
       <Projects />

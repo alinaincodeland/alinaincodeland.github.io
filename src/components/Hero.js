@@ -5,7 +5,7 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <MDBContainer className="hero-section">
         <MDBRow>
           <MDBCol md="7" className="hero-text">

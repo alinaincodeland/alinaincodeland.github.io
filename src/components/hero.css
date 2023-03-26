@@ -16,13 +16,15 @@
   color: white;
   font-size: 56px;
   max-width: 550px;
+  margin-bottom: 0px;
 }
 
 .hero-title-span {
   font-weight: 600;
   color: #6474b4;
   font-size: 44px;
-  margin-bottom: 2rem;
+  margin-top: 1px;
+  margin-bottom: 1.5rem;
 }
 
 .hero-subtitle {
