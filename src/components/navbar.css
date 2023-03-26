@@ -1,0 +1,16 @@
+.navbar {
+  z-index: 1;
+  background-color: #fff;
+  color: black !important;
+  box-shadow: none;
+}
+
+.navbar-container {
+  max-width: 1250px !important;
+  margin: auto !important;
+}
+
+.navbar-items {
+  margin-right: 2rem !important;
+  font-size: 1.1rem !important;
+}
