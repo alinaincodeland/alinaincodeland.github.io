@@ -18,7 +18,7 @@ export default function App() {
   return (
     <MDBNavbar expand="lg" sticky className="navbar">
       <MDBContainer fluid className="navbar-container">
-        <MDBNavbarBrand href="#">alina in codeland</MDBNavbarBrand>
+        <MDBNavbarBrand href="#home">alina in codeland</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"

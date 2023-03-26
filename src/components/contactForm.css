@@ -7,7 +7,6 @@
 
 .contact-form-section {
     max-width: 1160px !important;
-    
     margin: auto;
 }
 
@@ -19,7 +18,7 @@
 .contact-form-title-text {
     line-height: 1.2;
     margin-bottom: 2rem;
-    color: #a876f5;
+    color:  #6474b4;
     text-decoration-line: underline;
     text-decoration-style: wavy;
     font-size: 56px !important;
@@ -46,7 +45,7 @@
 .contact-input {
     border: none;
     outline: none;
-    border-bottom: 2px solid #a876f5;
+    border-bottom: 2px solid  #6474b4;
     margin-bottom: 15px;
     transition: all 0.3s;
     font-size: 14px;
@@ -55,13 +54,13 @@
 }
 
 .contact-input:focus {
-    border-bottom: 2px solid #762de2;
+    border-bottom: 2px solid #9fa9e2;
 }
 
 .contact-button {
     border-radius: 30px;
     padding: 20px 30px;
-    background-color: #a876f5 !important;
+    background-color: #6474b4 !important;
     color: #fff;
     text-align: center;
     box-shadow: none !important;
@@ -78,7 +77,7 @@
 }
 
 .contact-button:hover {
-    background: green;
+    box-shadow: 13px 13px 14px 0px rgba(0,0,0,0.1) !important;
     color: #fff;
 }
 

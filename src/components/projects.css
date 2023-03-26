@@ -1,5 +1,5 @@
 .project-container {
-  background-color: #eccc57de;
+  background-color: #cbdd7d;
   padding-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
@@ -13,8 +13,9 @@
 .project-title {
     display: block;
     font-weight: 600;
-    color: white;
+    color: black;
     font-size: 56px;
     margin-bottom: 2.5rem;
+    text-align: center;
 
 }
