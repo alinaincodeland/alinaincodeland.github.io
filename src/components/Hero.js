@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdb-react-ui-kit";
+import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import WorkingHome from "../assets/working-at-home.gif";
 import "./hero.css";
 
@@ -18,7 +18,14 @@ const Hero = () => {
               technologies in a company which values mentorship and diversity.
             </p>
 
-            <btn className="hero-demo-button">Get in touch</btn>
+            <a
+              className="hero-demo-button"
+              href="https://drive.google.com/file/d/19TuAKqagrpQlG7mroC5w1_rUjNw1ZhoU/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              See my CV
+            </a>
           </MDBCol>
           <MDBCol md="5" className="hero-container-image">
             <img
