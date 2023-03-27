@@ -44,7 +44,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={JS} alt="JS-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">JavaScript</p>
               </div>
             </MDBCol>
@@ -60,7 +60,7 @@ export default function Skills() {
                   onMouseOut={handleMouseOut}
                 />
 
-                <div>
+                <div className="icon-name-div">
                   <p className="icon-name">HTML5</p>
                 </div>
               </div>
@@ -69,7 +69,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={CSS} alt="CSS-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">CSS3</p>
               </div>
             </MDBCol>
@@ -78,7 +78,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={ReactIcon} alt="React-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">React</p>
               </div>
             </MDBCol>
@@ -86,7 +86,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={Node} alt="Node-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">Node JS</p>
               </div>
             </MDBCol>
@@ -94,7 +94,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={Express} alt="Express-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">Express JS</p>
               </div>
             </MDBCol>
@@ -102,7 +102,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={MongoDB} alt="MongoDB-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">MongoDB</p>
               </div>
             </MDBCol>
@@ -110,7 +110,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={Saas} alt="Saas-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">Sass</p>
               </div>
             </MDBCol>
@@ -118,7 +118,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={Next} alt="Next-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">Next JS</p>
               </div>
             </MDBCol>
@@ -127,7 +127,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={Tailwind} alt="Tailwind-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name">Tailwind CSS</p>
               </div>
             </MDBCol>
@@ -136,7 +136,7 @@ export default function Skills() {
               <div className="icon-div">
                 <img src={Github} alt="Github-icon" className="icon" />
               </div>
-              <div>
+              <div className="icon-name-div">
                 <p className="icon-name"> Git / GitHub</p>
               </div>
             </MDBCol>
@@ -150,7 +150,7 @@ export default function Skills() {
             <div className="icon-div">
               <img src={Vsc} alt="VSC-icon" className="icon" />
             </div>
-            <div>
+            <div className="icon-name-div">
               <p className="icon-name"> VS Code</p>
             </div>
           </MDBCol>
@@ -158,7 +158,7 @@ export default function Skills() {
             <div className="icon-div">
               <img src={Slack} alt="Slack-icon" className="icon" />
             </div>
-            <div>
+            <div className="icon-name-div">
               <p className="icon-name">Slack</p>
             </div>
           </MDBCol>
@@ -166,7 +166,7 @@ export default function Skills() {
             <div className="icon-div">
               <img src={Confluence} alt="Confluence-icon" className="icon" />
             </div>
-            <div>
+            <div className="icon-name-div">
               <p className="icon-name"> Confluence</p>
             </div>
           </MDBCol>
@@ -174,7 +174,7 @@ export default function Skills() {
             <div className="icon-div">
               <img src={Notion} alt="Notion-icon" className="icon" />
             </div>
-            <div>
+            <div className="icon-name-div">
               <p className="icon-name">Notion</p>
             </div>
           </MDBCol>
@@ -182,7 +182,7 @@ export default function Skills() {
             <div className="icon-div">
               <img src={Trello} alt="Trello-icon" className="icon" />
             </div>
-            <div>
+            <div className="icon-name-div">
               <p className="icon-name">Trello</p>
             </div>
           </MDBCol>
@@ -190,7 +190,7 @@ export default function Skills() {
             <div className="icon-div">
               <img src={Canva} alt="Canva-icon" className="icon" />
             </div>
-            <div>
+            <div className="icon-name-div">
               <p className="icon-name">Canva</p>
             </div>
           </MDBCol>

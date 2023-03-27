@@ -8,7 +8,7 @@ export default function Footer() {
       <MDBFooter className="footer">
         <div className="footer-section">
           <MDBRow>
-            <MDBCol md={2}>
+            <MDBCol md={2} className="connect-text">
               <div>
                 <p>Let's connect</p>
               </div>
@@ -16,7 +16,7 @@ export default function Footer() {
             <MDBCol md={4}>
               <a
                 href="https://www.linkedin.com/in/alina-cuznetov-733071138"
-                className="me-4 text-reset"
+                className="text-reset connect-icon"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -24,7 +24,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://github.com/alinaincodeland"
-                className="me-4 text-reset"
+                className="text-reset connect-icon"
                 target="_blank"
                 rel="noreferrer"
               >

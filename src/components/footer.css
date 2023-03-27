@@ -2,6 +2,7 @@
   max-width: 1160px !important;
   margin: auto !important;
   font-size: large;
+  color: gray;
 }
 
 .footer-section {
@@ -13,8 +14,26 @@
   float: right;
 }
 
+.connect-icon {
+  margin: 1rem;
+}
+
+.connect-icon:hover {
+  color: rgb(59, 113, 202) !important;
+}
+
 @media only screen and (max-width: 600px) {
   .footer {
     text-align: center;
+  }
+
+  .connect-text {
+    height: 30px;
+  }
+
+  .footer-name {
+    margin-top: 1rem !important;
+    font-size: medium;
+    float: initial;
   }
 }

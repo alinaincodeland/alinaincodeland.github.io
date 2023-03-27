@@ -3,7 +3,6 @@
   padding-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
-  /* text-align: center; */
 }
 
 .skills-section {
@@ -15,7 +14,6 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* text-align: center; */
 }
 
 .skills-title {
@@ -36,15 +34,23 @@
 }
 
 .icon-div {
-height: 110px;
-width: 110px;
+  height: 110px;
+  width: 110px;
 }
 
 .icon {
-background-color: white;
-padding: 12px;
-border-radius: 25px;
-object-fit: cover;
+  background-color: white;
+  padding: 12px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.icon-name-div {
+  width: 110px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center !important;
+  color: rgb(87, 86, 86);
 }
 
 .icon-container {
@@ -52,9 +58,8 @@ object-fit: cover;
 }
 
 .icon:hover {
-  box-shadow:  0 0 20px gray;
+  box-shadow: 0 0 20px gray;
 }
-
 
 /* Media queries */
 
@@ -65,7 +70,6 @@ object-fit: cover;
     max-width: 330px;
     text-align: center;
   }
-
 
   .skills-subtitle {
     font-size: 40px;
@@ -83,7 +87,6 @@ object-fit: cover;
     margin-bottom: 1.5rem;
   }
 
-  
   .hero-image-main {
     margin: auto;
   }
