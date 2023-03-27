@@ -18,6 +18,8 @@ import Vsc from "../assets/vsc.png";
 import Tailwind from "../assets/tailwind.png";
 import Slack from "../assets/slack.png";
 import Trello from "../assets/trello.png";
+import Netlify from "../assets/netlify.png";
+import Mui from "../assets/mui.png";
 
 export default function Skills() {
   const [isHovering, setIsHovering] = useState(false);
@@ -84,6 +86,14 @@ export default function Skills() {
             </MDBCol>
             <MDBCol className="icon-column">
               <div className="icon-div">
+                <img src={Next} alt="Next-icon" className="icon" />
+              </div>
+              <div className="icon-name-div">
+                <p className="icon-name">Next JS</p>
+              </div>
+            </MDBCol>
+            <MDBCol className="icon-column">
+              <div className="icon-div">
                 <img src={Node} alt="Node-icon" className="icon" />
               </div>
               <div className="icon-name-div">
@@ -114,14 +124,6 @@ export default function Skills() {
                 <p className="icon-name">Sass</p>
               </div>
             </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Next} alt="Next-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Next JS</p>
-              </div>
-            </MDBCol>
 
             <MDBCol className="icon-column">
               <div className="icon-div">
@@ -131,7 +133,14 @@ export default function Skills() {
                 <p className="icon-name">Tailwind CSS</p>
               </div>
             </MDBCol>
-
+            <MDBCol className="icon-column">
+              <div className="icon-div">
+                <img src={Mui} alt="Mui-icon" className="icon" />
+              </div>
+              <div className="icon-name-div">
+                <p className="icon-name">Material UI</p>
+              </div>
+            </MDBCol>
             <MDBCol className="icon-column">
               <div className="icon-div">
                 <img src={Github} alt="Github-icon" className="icon" />
@@ -140,20 +149,28 @@ export default function Skills() {
                 <p className="icon-name"> Git / GitHub</p>
               </div>
             </MDBCol>
+            <MDBCol className="icon-column">
+              <div className="icon-div">
+                <img src={Vsc} alt="VSC-icon" className="icon" />
+              </div>
+              <div className="icon-name-div">
+                <p className="icon-name"> VS Code</p>
+              </div>
+            </MDBCol>
+            <MDBCol className="icon-column">
+              <div className="icon-div">
+                <img src={Netlify} alt="Netlify-icon" className="icon" />
+              </div>
+              <div className="icon-name-div">
+                <p className="icon-name">Netlify</p>
+              </div>
+            </MDBCol>
           </MDBRow>
         </MDBContainer>
         <MDBRow className="skills-subtitle">
           <h2 className="mt-2">Others</h2>
         </MDBRow>
         <MDBContainer className="skills-container-row">
-          <MDBCol className="icon-column">
-            <div className="icon-div">
-              <img src={Vsc} alt="VSC-icon" className="icon" />
-            </div>
-            <div className="icon-name-div">
-              <p className="icon-name"> VS Code</p>
-            </div>
-          </MDBCol>
           <MDBCol className="icon-column">
             <div className="icon-div">
               <img src={Slack} alt="Slack-icon" className="icon" />
