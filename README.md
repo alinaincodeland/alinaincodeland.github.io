@@ -1,8 +1,8 @@
 # Alina in Codeland
 
-Welcome to my first personal website. The website contains an overview of my career objectives, skills, projects and contact information. 
+Welcome to my first personal website. The website contains an overview of my career objectives, skills, projects and contact information. I'm looking forward to hearing from you! 
 
-image.png 
+<img src="./src/assets/homepage.png" alt="Home page">
 
 ---
 </br>
