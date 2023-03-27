@@ -19,7 +19,10 @@ export default function App() {
   return (
     <MDBNavbar expand="lg" sticky className="navbar">
       <MDBContainer fluid className="navbar-container">
-        <img src={Brain} alt="brain gif" className="brain-image" />
+        <a href="#home">
+          <img src={Brain} alt="brain gif" className="brain-image" />
+        </a>
+
         <MDBNavbarBrand href="#home">alina in codeland</MDBNavbarBrand>
 
         <MDBNavbarToggler
