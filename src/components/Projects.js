@@ -28,7 +28,11 @@ export default function Projects() {
         <MDBRow>
           <MDBCol md={6}>
             <MDBCard className="project-card">
-              <MDBCardImage position="top" alt="..." src={EdMundo} />
+              <MDBCardImage
+                position="top"
+                alt="EdMundo project"
+                src={EdMundo}
+              />
               <MDBCardBody>
                 <MDBCardTitle>EdMundo</MDBCardTitle>
                 <MDBCardText>
@@ -52,7 +56,11 @@ export default function Projects() {
           </MDBCol>
           <MDBCol md={6}>
             <MDBCard className="project-card">
-              <MDBCardImage position="top" alt="..." src={DCIconnect} />
+              <MDBCardImage
+                position="top"
+                alt="DCI Connect project"
+                src={DCIconnect}
+              />
               <MDBCardBody>
                 <MDBCardTitle>DCI Connect</MDBCardTitle>
                 <MDBCardText>
@@ -72,7 +80,11 @@ export default function Projects() {
           </MDBCol>
           <MDBCol md={6}>
             <MDBCard className="project-card">
-              <MDBCardImage position="top" alt="..." src={WeatherApp} />
+              <MDBCardImage
+                position="top"
+                alt="Weather App project"
+                src={WeatherApp}
+              />
               <MDBCardBody>
                 <MDBCardTitle>Weather App</MDBCardTitle>
                 <MDBCardText>
@@ -98,11 +110,15 @@ export default function Projects() {
           </MDBCol>
           <MDBCol md={6}>
             <MDBCard className="project-card">
-              <MDBCardImage position="top" alt="..." src={HelloFresh} />
+              <MDBCardImage
+                position="top"
+                alt="Hello Fresh project"
+                src={HelloFresh}
+              />
               <MDBCardBody>
                 <MDBCardTitle>Hello Fresh Replica</MDBCardTitle>
                 <MDBCardText>
-                  Partial replica of a HelloFresh meal kit delivery website
+                  Partial replica of HelloFresh, a meal kit delivery website,
                   built using React, Node and Tailwind.
                 </MDBCardText>
               </MDBCardBody>

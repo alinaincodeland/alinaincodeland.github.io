@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-section">
           <MDBRow>
             <MDBCol md={2}>
-              <div className="d-none d-lg-block">
+              <div>
                 <p>Let's connect</p>
               </div>
             </MDBCol>
