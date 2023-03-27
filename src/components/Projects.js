@@ -17,6 +17,7 @@ import HelloFresh from "../assets/HelloFresh.png";
 import WeatherApp from "../assets/WeatherApp.png";
 import GitHubRepo from "../assets/github-repo.gif";
 import Live from "../assets/live.gif";
+import Presentation from "../assets/presentation.gif";
 
 export default function Projects() {
   return (
@@ -44,6 +45,12 @@ export default function Projects() {
               <MDBCardBody className="project-links">
                 <MDBCardLink href="#" target="_blank">
                   <img src={Live} alt="deployed-website" />
+                </MDBCardLink>
+                <MDBCardLink
+                  href="https://docs.google.com/presentation/d/1fNUHjvJsdDE5KKIndgbtr1Q97LxTcpChPvB3w3MSq3w/edit?usp=sharing"
+                  target="_blank"
+                >
+                  <img src={Presentation} alt="presentation" />
                 </MDBCardLink>
                 <MDBCardLink
                   target="_blank"
