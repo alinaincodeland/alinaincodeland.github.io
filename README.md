@@ -11,7 +11,7 @@ Welcome to Alina's digital haven, Codeland. Here, you'll get a glimpse into her 
 
 Experience Alina's work firsthand by clicking the link below:
 
-[Click me!](https://alina-in-codeland.netlify.app/#home)
+<a href="https://alina-in-codeland.netlify.app/#home" target="_blank">Click me!</a>
 
 ---
 </br>
