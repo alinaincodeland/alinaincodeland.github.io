@@ -165,8 +165,8 @@ export default function Skills() {
             </div>
           </div>
         </MDBContainer>
-        <MDBRow className="skills-subtitle">
-          <h2 className="mt-2">Others</h2>
+        <MDBRow>
+          <h2 className="mt-2 skills-subtitle">Others</h2>
         </MDBRow>
         <MDBContainer className="skills-container-row">
           <div className="icon-column">

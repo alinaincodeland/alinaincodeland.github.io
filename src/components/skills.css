@@ -27,7 +27,8 @@
 }
 
 .skills-subtitle {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
 }
 
 .icon-column {
@@ -76,6 +77,22 @@
   .skills-subtitle {
     font-size: 40px;
     text-align: center !important;
+    margin-left: 0px;
+  }
+
+  .icon-column {
+    max-height: 130px;
+    margin: 1.1rem;
+  }
+  
+  .icon-div {
+    height: 90px;
+    width: 90px;
+  }
+
+  .icon-name-div {
+    width: 90px;
+   
   }
 
   .hero-subtitle {
