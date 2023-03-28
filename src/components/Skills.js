@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
+import { div, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import "./skills.css";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
@@ -41,176 +41,174 @@ export default function Skills() {
           <h2 className="skills-subtitle">Tech stack</h2>
         </MDBRow>
         <MDBContainer className="skills-container-row">
-          <MDBRow>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={JS} alt="JS-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">JavaScript</p>
-              </div>
-            </MDBCol>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={JS} alt="JS-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">JavaScript</p>
+            </div>
+          </div>
 
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                {/* rome-ignore lint/a11y/useKeyWithMouseEvents: <explanation> */}
-                <img
-                  src={HTML}
-                  alt="HTML-icon"
-                  className="icon"
-                  onMouseOver={handleMouseOver}
-                  onMouseOut={handleMouseOut}
-                />
+          <div className="icon-column">
+            <div className="icon-div">
+              {/* rome-ignore lint/a11y/useKeyWithMouseEvents: <explanation> */}
+              <img
+                src={HTML}
+                alt="HTML-icon"
+                className="icon"
+                onMouseOver={handleMouseOver}
+                onMouseOut={handleMouseOut}
+              />
 
-                <div className="icon-name-div">
-                  <p className="icon-name">HTML5</p>
-                </div>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={CSS} alt="CSS-icon" className="icon" />
-              </div>
               <div className="icon-name-div">
-                <p className="icon-name">CSS3</p>
+                <p className="icon-name">HTML5</p>
               </div>
-            </MDBCol>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={CSS} alt="CSS-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">CSS3</p>
+            </div>
+          </div>
 
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={ReactIcon} alt="React-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">React</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Next} alt="Next-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Next JS</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Node} alt="Node-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Node JS</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Express} alt="Express-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Express JS</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={MongoDB} alt="MongoDB-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">MongoDB</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Saas} alt="Saas-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Sass</p>
-              </div>
-            </MDBCol>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={ReactIcon} alt="React-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">React</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Next} alt="Next-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Next JS</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Node} alt="Node-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Node JS</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Express} alt="Express-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Express JS</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={MongoDB} alt="MongoDB-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">MongoDB</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Saas} alt="Saas-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Sass</p>
+            </div>
+          </div>
 
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Tailwind} alt="Tailwind-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Tailwind CSS</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Mui} alt="Mui-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Material UI</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Github} alt="Github-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name"> Git / GitHub</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Vsc} alt="VSC-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name"> VS Code</p>
-              </div>
-            </MDBCol>
-            <MDBCol className="icon-column">
-              <div className="icon-div">
-                <img src={Netlify} alt="Netlify-icon" className="icon" />
-              </div>
-              <div className="icon-name-div">
-                <p className="icon-name">Netlify</p>
-              </div>
-            </MDBCol>
-          </MDBRow>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Tailwind} alt="Tailwind-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Tailwind CSS</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Mui} alt="Mui-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Material UI</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Github} alt="Github-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name"> Git / GitHub</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Vsc} alt="VSC-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name"> VS Code</p>
+            </div>
+          </div>
+          <div className="icon-column">
+            <div className="icon-div">
+              <img src={Netlify} alt="Netlify-icon" className="icon" />
+            </div>
+            <div className="icon-name-div">
+              <p className="icon-name">Netlify</p>
+            </div>
+          </div>
         </MDBContainer>
         <MDBRow className="skills-subtitle">
           <h2 className="mt-2">Others</h2>
         </MDBRow>
         <MDBContainer className="skills-container-row">
-          <MDBCol className="icon-column">
+          <div className="icon-column">
             <div className="icon-div">
               <img src={Slack} alt="Slack-icon" className="icon" />
             </div>
             <div className="icon-name-div">
               <p className="icon-name">Slack</p>
             </div>
-          </MDBCol>
-          <MDBCol className="icon-column">
+          </div>
+          <div className="icon-column">
             <div className="icon-div">
               <img src={Confluence} alt="Confluence-icon" className="icon" />
             </div>
             <div className="icon-name-div">
               <p className="icon-name"> Confluence</p>
             </div>
-          </MDBCol>
-          <MDBCol className="icon-column">
+          </div>
+          <div className="icon-column">
             <div className="icon-div">
               <img src={Notion} alt="Notion-icon" className="icon" />
             </div>
             <div className="icon-name-div">
               <p className="icon-name">Notion</p>
             </div>
-          </MDBCol>
-          <MDBCol className="icon-column">
+          </div>
+          <div className="icon-column">
             <div className="icon-div">
               <img src={Trello} alt="Trello-icon" className="icon" />
             </div>
             <div className="icon-name-div">
               <p className="icon-name">Trello</p>
             </div>
-          </MDBCol>
-          <MDBCol className="icon-column">
+          </div>
+          <div className="icon-column">
             <div className="icon-div">
               <img src={Canva} alt="Canva-icon" className="icon" />
             </div>
             <div className="icon-name-div">
               <p className="icon-name">Canva</p>
             </div>
-          </MDBCol>
+          </div>
         </MDBContainer>
       </div>
     </div>
