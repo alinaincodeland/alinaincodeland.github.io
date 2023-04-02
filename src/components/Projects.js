@@ -33,6 +33,7 @@ export default function Projects() {
                 position="top"
                 alt="EdMundo project"
                 src={EdMundo}
+                className="project-img"
               />
               <MDBCardBody>
                 <MDBCardTitle>EdMundo</MDBCardTitle>
@@ -43,9 +44,9 @@ export default function Projects() {
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardBody className="project-links">
-                <MDBCardLink href="#" target="_blank">
+                {/* <MDBCardLink href="#" target="_blank">
                   <img src={Live} alt="deployed-website" />
-                </MDBCardLink>
+                </MDBCardLink> */}
                 <MDBCardLink
                   href="https://docs.google.com/presentation/d/1fNUHjvJsdDE5KKIndgbtr1Q97LxTcpChPvB3w3MSq3w/edit?usp=sharing"
                   target="_blank"
@@ -61,36 +62,14 @@ export default function Projects() {
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
-          <MDBCol md={6}>
-            <MDBCard className="project-card">
-              <MDBCardImage
-                position="top"
-                alt="DCI Connect project"
-                src={DCIconnect}
-              />
-              <MDBCardBody>
-                <MDBCardTitle>DCI Connect</MDBCardTitle>
-                <MDBCardText>
-                  Full stack mentorship platform that connects current DCI
-                  students and alumni built with Next.js and MongoDB.
-                </MDBCardText>
-              </MDBCardBody>
-              <MDBCardBody className="project-links">
-                <MDBCardLink
-                  href="https://github.com/alinaincodeland/DCI-connect"
-                  target="_blank"
-                >
-                  <img src={GitHubRepo} alt="live-repo" />
-                </MDBCardLink>
-              </MDBCardBody>
-            </MDBCard>
-          </MDBCol>
+
           <MDBCol md={6}>
             <MDBCard className="project-card">
               <MDBCardImage
                 position="top"
                 alt="Weather App project"
                 src={WeatherApp}
+                className="project-img"
               />
               <MDBCardBody>
                 <MDBCardTitle>Weather App</MDBCardTitle>
@@ -121,6 +100,7 @@ export default function Projects() {
                 position="top"
                 alt="Hello Fresh project"
                 src={HelloFresh}
+                className="project-img"
               />
               <MDBCardBody>
                 <MDBCardTitle>Hello Fresh Replica</MDBCardTitle>
@@ -132,6 +112,31 @@ export default function Projects() {
               <MDBCardBody className="project-links">
                 <MDBCardLink
                   href="https://github.com/alinaincodeland/hello-fresh"
+                  target="_blank"
+                >
+                  <img src={GitHubRepo} alt="live-repo" />
+                </MDBCardLink>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
+          <MDBCol md={6}>
+            <MDBCard className="project-card">
+              <MDBCardImage
+                position="top"
+                alt="DCI Connect project"
+                src={DCIconnect}
+                className="project-img"
+              />
+              <MDBCardBody>
+                <MDBCardTitle>DCI Connect</MDBCardTitle>
+                <MDBCardText>
+                  Full stack mentorship platform that connects current DCI
+                  students and alumni built with Next.js and MongoDB.
+                </MDBCardText>
+              </MDBCardBody>
+              <MDBCardBody className="project-links">
+                <MDBCardLink
+                  href="https://github.com/alinaincodeland/DCI-connect"
                   target="_blank"
                 >
                   <img src={GitHubRepo} alt="live-repo" />
