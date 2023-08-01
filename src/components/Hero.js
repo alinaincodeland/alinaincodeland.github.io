@@ -13,9 +13,7 @@ const Hero = () => {
             <h1 className="hero-title-span"> Frontend Web Developer</h1>
             <p className="hero-subtitle">
               Creative frontend web developer focused on creating user-friendly,
-              functional applications using React, JavaScript and CSS. I am
-              eager to apply my current knowledge as well as learn new
-              technologies in a company which values mentorship and diversity.
+              functional applications using React, JavaScript and CSS. I am currently exploring Angular at plista GmbH by improving the self-service advertising platform. 
             </p>
 
             <a
