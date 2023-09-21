@@ -48,7 +48,7 @@ export default function Projects() {
                   <img src={Live} alt="deployed-website" />
                 </MDBCardLink> */}
                 <MDBCardLink
-                  href="https://docs.google.com/presentation/d/1fNUHjvJsdDE5KKIndgbtr1Q97LxTcpChPvB3w3MSq3w/edit?usp=sharing"
+                  href="https://docs.google.com/presentation/d/19JyDABWLwdF_c5SIr7pT_kFGzosUpj6TIPKB8i6WWgs/edit?usp=sharing"
                   target="_blank"
                 >
                   <img src={Presentation} alt="presentation" />
