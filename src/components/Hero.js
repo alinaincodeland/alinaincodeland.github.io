@@ -12,13 +12,12 @@ const Hero = () => {
             <h1 className="hero-title">Alina Cuznetov</h1>
             <h1 className="hero-title-span"> Frontend Web Developer</h1>
             <p className="hero-subtitle">
-              Creative frontend web developer focused on creating user-friendly,
-              functional applications using React, JavaScript and CSS. I am currently exploring Angular at plista GmbH by improving the self-service advertising platform. 
+             As a creative frontend developer, I specialize in crafting user-friendly and robust applications using React, Angular, and CSS. I am enthusiastic about applying my current knowledge while remaining committed to learning new technologies. My aspiration is to join a forward-thinking company that places a strong emphasis on mentorship and diversity.
             </p>
 
             <a
               className="hero-demo-button"
-              href="https://drive.google.com/file/d/1rwhmpzSzrkIXvPPj2L8BeZ1rVIcauZU_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YL6XBPqxHgsW1it3Bssy8Fs2ZxoWGfiX/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
