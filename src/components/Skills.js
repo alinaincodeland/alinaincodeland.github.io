@@ -25,9 +25,9 @@ import Typescript from "../assets/typescript.png";
 
 const techStackIcons = [
   { src: JS, alt: "JS-icon", name: "JavaScript" },
+  { src: ReactIcon, alt: "React-icon", name: "React" },
   { src: Angular, alt: "Angular-icon", name: "Angular" },
   { src: Typescript, alt: "Typescript-icon", name: "Typescript" },
-  { src: ReactIcon, alt: "React-icon", name: "React" },
   { src: HTML, alt: "HTML-icon", name: "HTML5" },
   { src: CSS, alt: "CSS-icon", name: "CSS3" },
   { src: Next, alt: "Next-icon", name: "Next JS" },
