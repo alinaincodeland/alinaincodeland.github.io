@@ -23,7 +23,7 @@ export default function App() {
           <img src={Brain} alt="brain gif" className="brain-image" />
         </a>
 
-        <MDBNavbarBrand href="#home">alina in codeland</MDBNavbarBrand>
+        <MDBNavbarBrand>alina in codeland</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"

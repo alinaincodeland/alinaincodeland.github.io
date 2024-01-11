@@ -40,7 +40,7 @@
   border-radius: 30px;
   padding: 15px 30px;
   background-color: #f5cb37;
-  color: #6474b4;
+  color: #6474b4 !important;
   text-align: center;
   box-shadow: none !important;
   text-transform: uppercase;
