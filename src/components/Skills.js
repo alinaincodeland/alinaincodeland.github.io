@@ -6,8 +6,6 @@ import Angular from "../assets/angular.png";
 import ReactIcon from "../assets/react.png";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
-import Canva from "../assets/canva.png";
-import Confluence from "../assets/confluence.png";
 import Express from "../assets/express.png";
 import Github from "../assets/github.png";
 import MongoDB from "../assets/mongodb.png";
@@ -17,8 +15,6 @@ import Notion from "../assets/notion.png";
 import Saas from "../assets/saas.png";
 import Vsc from "../assets/vsc.png";
 import Tailwind from "../assets/tailwind.png";
-import Slack from "../assets/slack.png";
-import Trello from "../assets/trello.png";
 import Netlify from "../assets/netlify.png";
 import Mui from "../assets/mui.png";
 import Typescript from "../assets/typescript.png";
@@ -42,14 +38,6 @@ const techStackIcons = [
   { src: Netlify, alt: "Netlify-icon", name: "Netlify" },
 ];
 
-const othersIcons = [
-  { src: Slack, alt: "Slack-icon", name: "Slack" },
-  { src: Confluence, alt: "Confluence-icon", name: "Confluence" },
-  { src: Notion, alt: "Notion-icon", name: "Notion" },
-  { src: Trello, alt: "Trello-icon", name: "Trello" },
-  { src: Canva, alt: "Canva-icon", name: "Canva" },
-];
-
 function Icon({ src, alt, name }) {
   return (
     <div className="icon-column">
@@ -68,21 +56,10 @@ export default function Skills() {
     <div className="skills-container" id="skills">
       <div className="skills-section">
         <MDBRow>
-          <h1 className="skills-title">My skills</h1>
-        </MDBRow>
-        <MDBRow>
-          <h2 className="skills-subtitle">Tech stack</h2>
+          <h1 className="skills-title">Tech stack</h1>
         </MDBRow>
         <MDBContainer className="skills-container-row">
           {techStackIcons.map((icon) => (
-            <Icon key={icon.name} {...icon} />
-          ))}
-        </MDBContainer>
-        <MDBRow>
-          <h2 className="mt-2 skills-subtitle">Others</h2>
-        </MDBRow>
-        <MDBContainer className="skills-container-row">
-          {othersIcons.map((icon) => (
             <Icon key={icon.name} {...icon} />
           ))}
         </MDBContainer>
