@@ -10,14 +10,14 @@ const Hero = () => {
         <MDBRow>
           <MDBCol md="7" className="hero-text">
             <h1 className="hero-title">Alina Cuznetov</h1>
-            <h1 className="hero-title-span"> Frontend Web Developer</h1>
+            <h1 className="hero-title-span"> Frontend Engineer</h1>
             <p className="hero-subtitle">
-             As a creative frontend developer, I specialize in crafting user-friendly and robust applications using React, Angular, and CSS. I am enthusiastic about applying my current knowledge while remaining committed to learning new technologies. My aspiration is to join a forward-thinking company that places a strong emphasis on mentorship and diversity.
+              As a creative frontend developer, I specialize in crafting user-friendly and robust applications using React, Angular, and CSS. I am enthusiastic about applying my current knowledge while remaining committed to learning new technologies. My aspiration is to join a forward-thinking company that places a strong emphasis on mentorship and diversity.
             </p>
 
             <a
               className="hero-demo-button"
-              href="https://drive.google.com/file/d/1Qam_ClLh_U71juviPX6xbEkCEs78oMpq/view?usp=sharing"
+              href="https://drive.google.com/file/d/1RuUHUb37Z4KIvD4TGnU6juMmiOKNerW7/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
