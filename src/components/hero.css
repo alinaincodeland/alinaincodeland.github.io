@@ -29,14 +29,14 @@
 
 .hero-subtitle {
   font-size: 18px;
-  max-width: 480px;
+  max-width: 550px;
 }
 
 .hero-demo-button {
   display: block;
   width: fit-content;
   cursor: pointer;
-  margin-top: 2rem ;
+  margin-top: 2rem;
   border-radius: 30px;
   padding: 15px 30px;
   background-color: #f5cb37;
@@ -47,10 +47,9 @@
   font-weight: 600;
 }
 
-
-.hero-demo-button:hover{
-    box-shadow: 13px 13px 14px 0px rgba(0,0,0,0.1) !important;
-  }
+.hero-demo-button:hover {
+  box-shadow: 13px 13px 14px 0px rgba(0, 0, 0, 0.1) !important;
+}
 
 .hero-container-image {
   margin: auto;
@@ -70,7 +69,7 @@
     text-align: center;
   }
 
-  .hero-title, 
+  .hero-title,
   .hero-subtitle {
     font-size: 40px;
     text-align: center;
@@ -87,7 +86,6 @@
     margin-bottom: 1.5rem;
   }
 
-  
   .hero-image-main {
     margin: auto;
   }
