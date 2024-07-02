@@ -11,7 +11,6 @@ import Github from "../assets/github.png";
 import MongoDB from "../assets/mongodb.png";
 import Next from "../assets/next.png";
 import Node from "../assets/node.png";
-import HAML from "../assets/haml.png";
 import Ruby from "../assets/ruby.png";
 import Saas from "../assets/saas.png";
 import Vsc from "../assets/vsc.png";
@@ -28,7 +27,6 @@ const techStackIcons = [
   { src: Ruby, alt: "Ruby-icon", name: "Ruby" },
   { src: Typescript, alt: "Typescript-icon", name: "Typescript" },
   { src: HTML, alt: "HTML-icon", name: "HTML5" },
-  { src: HAML, alt: "HAML-icon", name: "HAML" },
   { src: CSS, alt: "CSS-icon", name: "CSS3" },
   { src: Next, alt: "Next-icon", name: "Next JS" },
   { src: Node, alt: "Node-icon", name: "Node JS" },
