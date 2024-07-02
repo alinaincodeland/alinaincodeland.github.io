@@ -11,10 +11,11 @@ import Github from "../assets/github.png";
 import MongoDB from "../assets/mongodb.png";
 import Next from "../assets/next.png";
 import Node from "../assets/node.png";
-import HAML from "../assets/haml.png"
-import Ruby from "../assets/ruby.png"
+import HAML from "../assets/haml.png";
+import Ruby from "../assets/ruby.png";
 import Saas from "../assets/saas.png";
 import Vsc from "../assets/vsc.png";
+import Figma from "../assets/figma.png";
 import Tailwind from "../assets/tailwind.png";
 import Netlify from "../assets/netlify.png";
 import Mui from "../assets/mui.png";
@@ -39,6 +40,7 @@ const techStackIcons = [
   { src: Github, alt: "Github-icon", name: "Git / GitHub" },
   { src: Vsc, alt: "VSC-icon", name: "VS Code" },
   { src: Netlify, alt: "Netlify-icon", name: "Netlify" },
+  { src: Figma, alt: "Figma-icon", name: "Figma" },
 ];
 
 function Icon({ src, alt, name }) {
