@@ -13,12 +13,12 @@ const Hero = () => {
             <h1 className="hero-title-span"> Frontend Web Developer</h1>
             <p className="hero-subtitle">
               I'm a creative frontend engineer based in Berlin with over two
-              years of experience. Currently at sofatutor GmbH, I excel in
-              developing and deploying A/B tests, maintaining unit and
-              integration tests. I am enthusiastic about applying my current
-              knowledge while remaining committed to learning new technologies.
-              My aspiration is to join a forward-thinking company that places a
-              strong emphasis on mentorship and diversity.
+              years of experience. Currently at sofatutor, I excel in developing
+              and deploying A/B tests, maintaining unit and integration tests. I
+              am enthusiastic about applying my current knowledge while
+              remaining committed to learning new technologies. My aspiration is
+              to join a forward-thinking company that places a strong emphasis
+              on mentorship and diversity.
             </p>
 
             <a
