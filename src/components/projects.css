@@ -1,8 +1,7 @@
 .project-container {
-  background-color: #9fa9e2;
-  padding-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project-container-row {
@@ -27,10 +26,8 @@
   text-align: center;
 }
 
-
-
 .project-links {
   display: flex;
   margin: auto;
- padding-top:0px !important;
+  padding-top: 0px !important;
 }

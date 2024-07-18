@@ -1,8 +1,7 @@
 .skills-container {
-  background-color: #eccc57de;
-  padding-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
+  font-family: "Montserrat", sans-serif;
 }
 
 .skills-section {
@@ -14,14 +13,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .skills-title {
   text-align: center;
   display: block;
   font-weight: 600;
-  color: white;
+  color: #4e5a8d;
   font-size: 56px;
   margin-bottom: 2.5rem;
 }
@@ -42,10 +40,11 @@
 }
 
 .icon {
-  background-color: white;
   padding: 12px;
   border-radius: 25px;
   object-fit: cover;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07),
+    0 10px 20px -2px rgba(0, 0, 0, 0.04);
 }
 
 .icon-name-div {
@@ -84,7 +83,7 @@
     max-height: 130px;
     margin: 1.1rem;
   }
-  
+
   .icon-div {
     height: 90px;
     width: 90px;
@@ -92,7 +91,6 @@
 
   .icon-name-div {
     width: 90px;
-   
   }
 
   .hero-subtitle {

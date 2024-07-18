@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
-import WorkingHome from "../assets/working-at-home.gif";
+import Avatar from "../assets/avatar.png";
 import "./hero.css";
 
 const Hero = () => {
@@ -8,6 +8,9 @@ const Hero = () => {
     <div className="hero" id="home">
       <MDBContainer className="hero-section">
         <MDBRow>
+          <MDBCol md="5" className="hero-container-image">
+            <img src={Avatar} alt="woman-avatar" className="hero-image-main" />
+          </MDBCol>
           <MDBCol md="7" className="hero-text">
             <h1 className="hero-title">Alina Cuznetov</h1>
             <h1 className="hero-title-span"> Frontend Web Developer</h1>
@@ -17,8 +20,8 @@ const Hero = () => {
               and deploying A/B tests, maintaining unit and integration tests. I
               am enthusiastic about applying my current knowledge while
               remaining committed to learning new technologies. My aspiration is
-              to join a forward-thinking company that places a strong emphasis
-              on mentorship and diversity.
+              to join a forward-thinking company that values mentorship and
+              diversity.
             </p>
 
             <a
@@ -29,13 +32,6 @@ const Hero = () => {
             >
               See my CV
             </a>
-          </MDBCol>
-          <MDBCol md="5" className="hero-container-image">
-            <img
-              src={WorkingHome}
-              alt="woman-binoculars"
-              className="hero-image-main"
-            />
           </MDBCol>
         </MDBRow>
       </MDBContainer>

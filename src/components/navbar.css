@@ -3,6 +3,7 @@
   background-color: #fff;
   color: black !important;
   box-shadow: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-container {
@@ -18,7 +19,6 @@
 .nav-link {
   color: #3b71ca !important;
 }
-
 
 .brain-image {
   margin-right: 1rem;
