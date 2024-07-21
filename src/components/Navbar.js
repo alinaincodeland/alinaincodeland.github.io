@@ -10,7 +10,6 @@ import {
   MDBNavbarLink,
   MDBCollapse,
 } from "mdb-react-ui-kit";
-import Brain from "../assets/brain.gif";
 import "./navbar.css";
 
 export default function App() {
@@ -19,10 +18,6 @@ export default function App() {
   return (
     <MDBNavbar expand="lg" sticky className="navbar">
       <MDBContainer fluid className="navbar-container">
-        <a href="#home">
-          <img src={Brain} alt="brain gif" className="brain-image" />
-        </a>
-
         <MDBNavbarBrand>alina in codeland</MDBNavbarBrand>
 
         <MDBNavbarToggler

@@ -1,25 +1,18 @@
 .navbar {
-  z-index: 1;
   background-color: #fff;
-  color: black !important;
-  box-shadow: none;
   font-family: "Montserrat", sans-serif;
+  z-index: 1;
 }
 
 .navbar-container {
-  max-width: 1250px !important;
+  max-width: 1160px;
   margin: auto !important;
 }
 
 .navbar-items {
-  margin-right: 2rem !important;
   font-size: 1.1rem !important;
 }
 
 .nav-link {
   color: #3b71ca !important;
-}
-
-.brain-image {
-  margin-right: 1rem;
 }
