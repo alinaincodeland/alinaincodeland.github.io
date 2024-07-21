@@ -10,6 +10,7 @@
 }
 
 .skills-container-row {
+  max-width: 1160px !important;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
