@@ -18,7 +18,7 @@
   margin-bottom: 0px;
 }
 
-.hero-title-span {
+.hero-subtitle {
   font-weight: 600;
   color: #6474b4;
   font-size: 44px;
@@ -26,7 +26,7 @@
   margin-bottom: 1.5rem;
 }
 
-.hero-subtitle {
+.hero-text {
   margin-inline: auto;
   font-size: 18px;
   color: #6474b4;
@@ -52,12 +52,8 @@
   box-shadow: 13px 13px 14px 0px rgba(0, 0, 0, 0.1) !important;
 }
 
-.hero-container-image {
-  margin: auto;
-}
-
 .hero-image-main {
-  float: right;
+  float: left;
 }
 
 /* Media queries */
@@ -70,14 +66,9 @@
     text-align: center;
   }
 
-  .hero-title,
-  .hero-subtitle {
+  .hero-title {
     font-size: 40px;
     text-align: center;
-  }
-
-  .hero-subtitle {
-    font-size: 18px;
   }
 
   .hero-demo-button {
