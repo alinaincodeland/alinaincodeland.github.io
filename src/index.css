@@ -1,8 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Navbar */
 
 .navbar {
   background-color: #fff;
-  font-family: "Montserrat", sans-serif;
   z-index: 1;
 }
 
@@ -19,13 +25,16 @@
   color: #3b71ca !important;
 }
 
+.navbar-brand {
+  color: #3b71ca !important;
+}
+
 /* Hero section */
 
 .hero {
   height: fit-content;
   padding-top: 96px;
   padding-bottom: 96px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .hero-section {
@@ -101,6 +110,20 @@
   margin-bottom: 2.5rem;
 }
 
+.timeline-title {
+  color: #4e5a8d !important;
+}
+
+.vertical-timeline-element-content p,
+.timeline-subtitle,
+.vertical-timeline-element-date {
+  color: #6474b4;
+}
+
+.vertical-timeline-element-date {
+  opacity: 1;
+}
+
 .vertical-timeline-element-content-arrow {
   display: none;
 }
@@ -114,6 +137,10 @@
     0 10px 20px -2px rgba(0, 0, 0, 0.04) !important;
 }
 
+.vertical-timeline-element-content p {
+  font-size: 400 !important;
+}
+
 .vertical-timeline-element-content:hover {
   box-shadow: 0 0 20px gray !important;
   transition: 0.5s;
@@ -125,7 +152,6 @@
   margin-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
-  font-family: "Montserrat", sans-serif;
 }
 
 .skills-section {
@@ -275,7 +301,6 @@
 .contact-form-component {
   padding-bottom: 96px;
   height: fit-content;
-  font-family: "Montserrat", sans-serif;
 }
 
 .contact-form-section {
@@ -358,7 +383,6 @@
   margin: auto !important;
   font-size: large;
   color: rgb(70, 70, 70);
-  font-family: "Montserrat", sans-serif;
 }
 
 .footer-section {
