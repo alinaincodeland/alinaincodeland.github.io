@@ -1,5 +1,6 @@
 import "./index.scss";
 import "./reset.scss";
+import "./index.css";
 import Hero from "./components/Hero.js";
 import Skills from "./components/Skills.js";
 import Projects from "./components/Projects.js";

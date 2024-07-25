@@ -10,7 +10,6 @@ import {
   MDBNavbarLink,
   MDBCollapse,
 } from "mdb-react-ui-kit";
-import "./navbar.css";
 
 export default function App() {
   const [showBasic, setShowBasic] = useState(false);

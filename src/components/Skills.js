@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBContainer, MDBRow } from "mdb-react-ui-kit";
-import "./skills.css";
 import JS from "../assets/js.png";
 import Angular from "../assets/angular.png";
 import ReactIcon from "../assets/react.png";

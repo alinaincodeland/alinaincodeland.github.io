@@ -10,7 +10,6 @@ import {
   MDBCardText,
   MDBCardLink,
 } from "mdb-react-ui-kit";
-import "./projects.css";
 import DCIconnect from "../assets/DCIconnect.png";
 import EdMundo from "../assets/EdMundo.png";
 import HelloFresh from "../assets/HelloFresh.png";

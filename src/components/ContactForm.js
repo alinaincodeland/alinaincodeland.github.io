@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./contactForm.css";
 import {
   MDBModal,
   MDBModalDialog,
@@ -11,7 +10,6 @@ import {
   MDBCol,
 } from "mdb-react-ui-kit";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
-import "./contactForm.css";
 import GirlWithLaptop from "../assets/girl-with-laptop.gif";
 
 const ContactForm = () => {
