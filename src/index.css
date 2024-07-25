@@ -81,18 +81,40 @@
 
 /* Timeline section */
 
+.timeline-section {
+  max-width: 1160px;
+  margin: auto !important;
+}
+
+.vertical-timeline {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  width: 100% !important;
+}
+
+.timeline-section-title {
+  color: #4e5a8d;
+  font-size: 56px;
+  font-weight: 600;
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 2.5rem;
+}
+
 .vertical-timeline-element-content {
   box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07),
-    0 10px 20px -2px rgba(0, 0, 0, 0.04);
+    0 10px 20px -2px rgba(0, 0, 0, 0.04) !important;
 }
 
 .vertical-timeline-element-content:hover {
-  box-shadow: 0 0 20px gray;
+  box-shadow: 0 0 20px gray !important;
+  transition: 0.5s;
 }
 
 /* Skills */
 
 .skills-container {
+  margin-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
   font-family: "Montserrat", sans-serif;
@@ -218,6 +240,7 @@
 
 .project-card {
   margin-bottom: 1.5rem;
+  transition: 0.5s;
 }
 
 .project-card:hover {
