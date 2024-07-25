@@ -13,7 +13,6 @@ export default function Timeline() {
           className="vertical-timeline-element"
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="03.24 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         >
           <h4 className="timeline-title">Frontend Engineer</h4>
           <p>
@@ -54,8 +53,8 @@ export default function Timeline() {
             People and Office Manager
           </h4>
           <p>
-            Coordinated the design and development of a new corporate
-            website.Planned and executed company events, perks & benefits,
+            Coordinated the design and development of a new corporate website.
+            Planned and executed company events, perks & benefits,
             on/off-boarding, social media campaigns and office tasks.
           </p>
         </VerticalTimelineElement>

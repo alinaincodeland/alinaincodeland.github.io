@@ -101,6 +101,14 @@
   margin-bottom: 2.5rem;
 }
 
+.vertical-timeline-element-content-arrow {
+  display: none;
+}
+
+.vertical-timeline-element-icon {
+  background-color: #f5cb37;
+}
+
 .vertical-timeline-element-content {
   box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07),
     0 10px 20px -2px rgba(0, 0, 0, 0.04) !important;
