@@ -8,12 +8,14 @@ import Footer from "./components/Footer";
 import ScrollToTop from "react-scroll-up";
 import { BsArrowUpCircle } from "react-icons/bs";
 import Navbar from "./components/Navbar";
+import Timeline from "./components/Timeline.js";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Timeline />
       <Skills />
       <Projects />
       <ContactForm />
