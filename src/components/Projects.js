@@ -129,8 +129,8 @@ export default function Projects() {
               <MDBCardBody>
                 <MDBCardTitle>DCI Connect</MDBCardTitle>
                 <MDBCardText>
-                  Full stack mentorship platform that connects current DCI
-                  students and alumni built with Next.js and MongoDB.
+                  Mentorship platform that connects current DCI students and
+                  alumni built with Next.js and MongoDB.
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardBody className="project-links">

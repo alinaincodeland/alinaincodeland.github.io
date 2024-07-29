@@ -88,14 +88,6 @@ body {
   margin: auto;
 }
 
-.arrow {
-  position: relative;
-  rotate: 160deg;
-  right: -500px;
-  top: -57px;
-  z-index: -1;
-}
-
 /* Timeline section */
 
 .timeline-section {
@@ -155,6 +147,7 @@ body {
   margin-top: 96px;
   padding-bottom: 96px;
   height: fit-content;
+  margin-inline: 2rem !important;
 }
 
 .skills-section {
@@ -166,12 +159,12 @@ body {
   max-width: 1160px !important;
   padding-inline: 0 !important;
   display: flex;
+  margin-inline: auto !important;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .skills-title {
-  /* text-align: center; */
   display: block;
   font-weight: 600;
   color: #4e5a8d;
@@ -218,51 +211,12 @@ body {
   box-shadow: 0 0 20px gray;
 }
 
-/* Media queries */
-
-@media only screen and (max-width: 600px) {
-  .hero-section {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    max-width: 330px;
-    text-align: center;
-  }
-
-  .icon-column {
-    max-height: 130px;
-    margin: 1.1rem;
-  }
-
-  .icon-div {
-    height: 90px;
-    width: 90px;
-  }
-
-  .icon-name-div {
-    width: 90px;
-  }
-
-  .hero-subtitle {
-    font-size: 18px;
-  }
-
-  .hero-demo-button {
-    display: block;
-    margin: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-image-main {
-    margin: auto;
-  }
-}
-
 /* Projects */
 
 .project-container {
   padding-bottom: 96px;
   height: fit-content;
+  margin-inline: 2rem !important;
 }
 
 .project-container-row {
@@ -298,6 +252,7 @@ body {
 .contact-form-component {
   padding-bottom: 96px;
   height: fit-content;
+  margin-inline: 2rem !important;
 }
 
 .contact-form-section {
@@ -407,6 +362,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  .hero {
+    padding-top: 56px;
+  }
+
   .hero-section {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -428,6 +390,7 @@ body {
 
   .hero-image-main {
     margin: auto;
+    height: 300px;
   }
 
   .contact-form-component {
@@ -468,5 +431,46 @@ body {
     margin-top: 1rem !important;
     font-size: medium;
     float: initial;
+  }
+
+  .hero-section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 330px;
+    text-align: center;
+  }
+
+  .icon-column {
+    max-height: 130px;
+    margin: 1.1rem;
+    margin-inline: auto;
+  }
+
+  .icon-div {
+    height: 90px;
+    width: 90px;
+  }
+
+  .icon-name-div {
+    width: 90px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .hero-demo-button {
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-image-main {
+    margin: auto;
+  }
+
+  .contact-form-component {
+    padding-top: 0rem;
   }
 }
