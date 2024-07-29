@@ -18,8 +18,9 @@ export default function Timeline() {
           <h5 className="timeline-subtitle">sofatutor GmbH</h5>
 
           <p>
-            Developed competency in Ruby, HAML and BEM by running A/B tests to
-            improve user retention and implementing unit and integration tests.
+            Honed my skills in Ruby, HAML, and BEM by crafting and running A/B
+            tests to boost user retention, alongside implementing unit and
+            integration tests.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -30,9 +31,9 @@ export default function Timeline() {
           <h5 className="timeline-subtitle">plista Gmbh</h5>
 
           <p>
-            Developed competency in Angular, TypeScript, and Storybook by
-            successfully deploying frontend features and collaborating with
-            design and frontend teams using Git/Gitlab, Jira, and Figma.
+            Mastered Angular, TypeScript, and Storybook by launching frontend
+            features and working seamlessly with design and frontend teams using
+            Git/Gitlab, Jira, and Figma.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -43,8 +44,8 @@ export default function Timeline() {
           <h5 className="timeline-subtitle">Comgy GmbH</h5>
 
           <p>
-            Substituted Vuetify 2 framework on an internal business platform
-            with Tailwind CSS custom components.
+            Revamped an internal business platform by substituting Vuetify 2
+            framework with custom Tailwind CSS components.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -56,9 +57,9 @@ export default function Timeline() {
             DCI Digital Career Institute, Apprenticeship
           </h5>
           <p>
-            One-year full-time training in MERN stack where I consolidated my
-            web development skills through practical exercises and group
-            projects.
+            Completed an intensive year-long training in the MERN stack,
+            solidifying my web development expertise through hands-on exercises
+            and collaborative projects.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -68,9 +69,9 @@ export default function Timeline() {
           <h4 className="timeline-title">People and Office Manager</h4>
           <h5 className="timeline-subtitle">Compado GmbH</h5>
           <p>
-            Coordinated the design and development of a new corporate website.
-            Planned and executed company events, perks & benefits,
-            on/off-boarding and office tasks.
+            Led the design and development of a new corporate website. Also took
+            charge of planning and executing company events, managing perks &
+            benefits, and handling on/off-boarding and office tasks.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
