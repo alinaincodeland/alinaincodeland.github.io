@@ -34,7 +34,7 @@ body {
 .hero {
   height: fit-content;
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 196px;
 }
 
 .hero-section {
@@ -88,6 +88,14 @@ body {
   margin: auto;
 }
 
+.arrow {
+  position: absolute;
+  rotate: 160deg;
+  right: 623px;
+  top: 500px;
+  z-index: -1;
+}
+
 /* Timeline section */
 
 .timeline-section {
@@ -103,15 +111,10 @@ body {
 
 .timeline-section-title {
   color: #4e5a8d;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 600;
   display: block;
-  margin-inline: auto;
   margin-bottom: 2.5rem;
-}
-
-.timeline-title {
-  color: #4e5a8d !important;
 }
 
 .vertical-timeline-element-content p,
@@ -161,17 +164,18 @@ body {
 
 .skills-container-row {
   max-width: 1160px !important;
+  padding-inline: 0 !important;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .skills-title {
-  text-align: center;
+  /* text-align: center; */
   display: block;
   font-weight: 600;
   color: #4e5a8d;
-  font-size: 56px;
+  font-size: 50px;
   margin-bottom: 2.5rem;
 }
 
@@ -222,12 +226,6 @@ body {
     margin-right: 1rem;
     max-width: 330px;
     text-align: center;
-  }
-
-  .skills-subtitle {
-    font-size: 40px;
-    text-align: center !important;
-    margin-left: 0px;
   }
 
   .icon-column {
@@ -285,9 +283,8 @@ body {
   display: block;
   font-weight: 600;
   color: #4e5a8d;
-  font-size: 56px;
+  font-size: 50px;
   margin-bottom: 2.5rem;
-  text-align: center;
 }
 
 .project-links {
@@ -402,6 +399,12 @@ body {
 }
 
 /* Media queries */
+
+@media screen and (max-width: 992px) {
+  .timeline-section {
+    margin-inline: 2rem !important;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .hero-section {

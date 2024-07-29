@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import Avatar from "../assets/avatar.png";
+import Arrow from "../assets/arrow.png";
 
 const Hero = () => {
   return (
@@ -33,6 +34,7 @@ const Hero = () => {
             </a>
           </MDBCol>
         </MDBRow>
+        <img src={Arrow} alt="woman-avatar" className="arrow" />
       </MDBContainer>
     </div>
   );
