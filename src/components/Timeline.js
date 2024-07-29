@@ -12,7 +12,7 @@ export default function Timeline() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="03.24 - present"
+          date="03.24 - 07.24"
         >
           <h4 className="timeline-title">Frontend Engineer</h4>
           <h5 className="timeline-subtitle">sofatutor GmbH</h5>
@@ -26,7 +26,7 @@ export default function Timeline() {
           className="vertical-timeline-element"
           date="06.23 - 10.23"
         >
-          <h4 className="timeline-title">Frontend Developer</h4>
+          <h4 className="timeline-title">Frontend Development Intern</h4>
           <h5 className="timeline-subtitle">plista Gmbh</h5>
 
           <p>
@@ -39,7 +39,7 @@ export default function Timeline() {
           className="vertical-timeline-element"
           date="04.23 - 05.23"
         >
-          <h4 className="timeline-title">Frontend Developer</h4>
+          <h4 className="timeline-title">Frontend Development Intern</h4>
           <h5 className="timeline-subtitle">Comgy GmbH</h5>
 
           <p>
