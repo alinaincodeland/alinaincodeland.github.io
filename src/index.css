@@ -34,7 +34,7 @@ body {
 .hero {
   height: fit-content;
   padding-top: 96px;
-  padding-bottom: 196px;
+  padding-bottom: 96px;
 }
 
 .hero-section {
@@ -89,10 +89,10 @@ body {
 }
 
 .arrow {
-  position: absolute;
+  position: relative;
   rotate: 160deg;
-  right: 623px;
-  top: 500px;
+  right: -500px;
+  top: -57px;
   z-index: -1;
 }
 

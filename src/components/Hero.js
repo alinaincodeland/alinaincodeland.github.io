@@ -34,7 +34,7 @@ const Hero = () => {
             </a>
           </MDBCol>
         </MDBRow>
-        <img src={Arrow} alt="woman-avatar" className="arrow" />
+        {/* <img src={Arrow} alt="woman-avatar" className="arrow" /> */}
       </MDBContainer>
     </div>
   );
