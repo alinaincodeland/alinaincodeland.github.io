@@ -270,7 +270,7 @@ body {
   color: #6474b4;
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  font-size: 56px !important;
+  font-size: 56px;
 }
 
 .contact-form-image {
@@ -412,6 +412,10 @@ body {
   .contact-form-title .subtitle {
     font-size: 30px !important;
     margin-bottom: 1rem;
+  }
+
+  .contact-form-title-text {
+    font-size: 46px;
   }
 
   .contact-form-image {
