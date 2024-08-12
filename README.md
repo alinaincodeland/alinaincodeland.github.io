@@ -2,8 +2,6 @@
 
 Welcome to Alina's digital haven, Codeland. Here, you'll get a glimpse into her career aspirations, skills, and past projects. Take a look at her homepage below, which showcases her style and creativity.
 
-<img src="./src/assets/homepage.png" alt="Home page">
-
 ---
 
 </br>
