@@ -8,9 +8,9 @@ Welcome to Alina in Codeland! I’m Alina, a frontend engineer with a knack for 
 
 ## Experience it Live!
 
-Experience Alina's work firsthand by clicking the link below:
+Experience Alina's work by clicking the link below:
 
-<a href="https://alina-in-codeland.netlify.app/" target="_blank">Click me!</a>
+<a href="https://alina-in-codeland.netlify.app/" target="_blank">Alina in Codeland website!</a>
 
 ---
 
