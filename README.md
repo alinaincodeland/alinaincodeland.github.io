@@ -1,6 +1,6 @@
-# Alina in Codeland
+# Alina in codeland personal website
 
-Welcome to Alina's digital haven, Codeland. Here, you'll get a glimpse into her career aspirations, skills, and past projects. Take a look at her homepage below, which showcases her style and creativity.
+Welcome to Alina in Codeland! I’m Alina, a frontend engineer with a knack for turning wild ideas into sleek, interactive web experiences. From pixel-perfect designs to cutting-edge code, this is where creativity meets technology. Check out my projects, explore my skills, and see how I’m pushing the boundaries of what’s possible on the web. Let’s make the internet a cooler place, one line of code at a time.
 
 ---
 
