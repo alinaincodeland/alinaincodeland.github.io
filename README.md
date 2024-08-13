@@ -28,7 +28,7 @@ To explore Codeland, follow these simple steps:
 
 </br>
 
-## Tools of the Trade
+## Technologies
 
 The magic behind Codeland comes from these technologies:
 
