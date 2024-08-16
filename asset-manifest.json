@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/alinaincodeland.github.io/static/css/main.45804d71.css",
+    "main.js": "/alinaincodeland.github.io/static/js/main.7452ca22.js",
+    "static/media/HelloFresh.png": "/alinaincodeland.github.io/static/media/HelloFresh.52a4e110e3a9cc7bddb6.png",
+    "static/media/girl-with-laptop.gif": "/alinaincodeland.github.io/static/media/girl-with-laptop.93f13a75d6553d47121d.gif",
+    "static/media/WeatherApp.png": "/alinaincodeland.github.io/static/media/WeatherApp.343d710f9d40b859ce47.png",
+    "static/media/fa-solid-900.ttf": "/alinaincodeland.github.io/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/EdMundo.png": "/alinaincodeland.github.io/static/media/EdMundo.3f1bd1b8a89ed5b78482.png",
+    "static/media/fa-brands-400.ttf": "/alinaincodeland.github.io/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/DCIconnect.png": "/alinaincodeland.github.io/static/media/DCIconnect.cd302bdd95fe81558298.png",
+    "static/media/fa-solid-900.woff2": "/alinaincodeland.github.io/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/alinaincodeland.github.io/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/saas.png": "/alinaincodeland.github.io/static/media/saas.a2591e27bc692562995c.png",
+    "static/media/fa-regular-400.ttf": "/alinaincodeland.github.io/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/avatar.png": "/alinaincodeland.github.io/static/media/avatar.d1bbe19e155f52485b43.png",
+    "static/media/live.gif": "/alinaincodeland.github.io/static/media/live.6549f4077ace1b0cca6f.gif",
+    "static/media/fa-regular-400.woff2": "/alinaincodeland.github.io/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/react.png": "/alinaincodeland.github.io/static/media/react.57c4a49f6803d191097e.png",
+    "static/media/mongodb.png": "/alinaincodeland.github.io/static/media/mongodb.4d1763a20af23f3dbc1d.png",
+    "static/media/presentation.gif": "/alinaincodeland.github.io/static/media/presentation.e76f41827efdd93a6d83.gif",
+    "static/media/github-repo.gif": "/alinaincodeland.github.io/static/media/github-repo.2f3eb7a07dd668b3fc91.gif",
+    "static/media/css.png": "/alinaincodeland.github.io/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/ruby.png": "/alinaincodeland.github.io/static/media/ruby.4b996d690c85dd90404e.png",
+    "static/media/express.png": "/alinaincodeland.github.io/static/media/express.c0a5938442260d76c0f2.png",
+    "static/media/typescript.png": "/alinaincodeland.github.io/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "/alinaincodeland.github.io/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/next.png": "/alinaincodeland.github.io/static/media/next.9f8054a6dc0837262000.png",
+    "static/media/fa-v4compatibility.ttf": "/alinaincodeland.github.io/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/alinaincodeland.github.io/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/alinaincodeland.github.io/index.html",
+    "main.45804d71.css.map": "/alinaincodeland.github.io/static/css/main.45804d71.css.map",
+    "main.7452ca22.js.map": "/alinaincodeland.github.io/static/js/main.7452ca22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45804d71.css",
+    "static/js/main.7452ca22.js"
+  ]
+}
