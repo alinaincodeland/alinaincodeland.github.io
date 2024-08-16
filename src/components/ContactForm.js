@@ -14,6 +14,7 @@ import GirlWithLaptop from "../assets/girl-with-laptop.gif";
 
 const ContactForm = () => {
   const [showModal, setShowModal] = useState(false);
+  // eslint-disable-next-line
   const [value, setValue] = useState("");
 
   const form = useRef();
