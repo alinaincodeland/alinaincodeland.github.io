@@ -1,6 +1,8 @@
-# Alina in codeland personal website
+# Alina in codeland
 
-Welcome to Alina in Codeland! I’m Alina, a frontend engineer with a knack for turning wild ideas into sleek, interactive web experiences. From pixel-perfect designs to cutting-edge code, this is where creativity meets technology. Check out my projects, explore my skills, and see how I’m pushing the boundaries of what’s possible on the web. Let’s make the internet a cooler place, one line of code at a time.
+Welcome to Alina in Codeland! 
+
+I’m Alina, a frontend engineer with a knack for turning wild ideas into sleek, interactive web experiences. From pixel-perfect designs to cutting-edge code, this is where creativity meets technology. Check out my projects, explore my skills, and see how I’m pushing the boundaries of what’s possible on the web. Let’s make the internet a cooler place, one line of code at a time.
 
 ---
 
