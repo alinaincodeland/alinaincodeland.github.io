@@ -6,7 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Timeline() {
   return (
-    <div class="timeline-section" id="trajectory">
+    <div className="timeline-section" id="trajectory">
       <h1 className="timeline-section-title">Professional trajectory</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
