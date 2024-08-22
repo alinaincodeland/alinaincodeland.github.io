@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/profile.jpg";
 
 const Hero = () => {
   return (
