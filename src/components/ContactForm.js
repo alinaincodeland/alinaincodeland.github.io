@@ -91,7 +91,7 @@ const ContactForm = () => {
               setShow={setShowModal}
               className="message-sent-modal"
             >
-              <MDBModalDialog position="top" frame>
+              <MDBModalDialog position="top">
                 <MDBModalContent>
                   <MDBModalBody className="py-1">
                     <div className="d-flex justify-content-center align-items-center my-3">
