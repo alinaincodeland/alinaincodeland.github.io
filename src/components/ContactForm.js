@@ -46,7 +46,11 @@ const ContactForm = () => {
       <MDBContainer className="contact-form-section">
         <MDBRow className="contact-form-container">
           <MDBCol md="5" className="contact-form-image">
-            <img src={GirlWithLaptop} alt="girl-with-laptop" />
+            <img
+              src={GirlWithLaptop}
+              alt="girl-with-laptop"
+              className="form-image"
+            />
           </MDBCol>
           <MDBCol md="6" className="mb-0">
             <div>
