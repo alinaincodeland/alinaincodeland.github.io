@@ -37,9 +37,8 @@ export default function Projects() {
               <MDBCardBody>
                 <MDBCardTitle>EdMundo</MDBCardTitle>
                 <MDBCardText>
-                  Full stack schooling platform for educational institutions
-                  that require a sudden transition to online learning built with
-                  MERN stack.
+                  A full-stack MERN platform for educational institutions
+                  transitioning to online learning.
                 </MDBCardText>
               </MDBCardBody>
               <MDBCardBody className="project-links">
