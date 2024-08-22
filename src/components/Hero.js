@@ -1,14 +1,13 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import Avatar from "../assets/avatar.png";
+import Profile from "../assets/profile2.png";
+
 const Hero = () => {
   return (
     <div className="hero" id="home">
       <MDBContainer className="hero-section">
         <MDBRow>
-          <MDBCol md="5" className="hero-container-image">
-            <img src={Avatar} alt="woman-avatar" className="hero-image-main" />
-          </MDBCol>
           <MDBCol md="7" className="hero-text">
             <h1 className="hero-title">Alina Cuznetov</h1>
             <h1 className="hero-subtitle"> Frontend Engineer</h1>
@@ -30,6 +29,9 @@ const Hero = () => {
             >
               See my CV
             </a>
+          </MDBCol>
+          <MDBCol md="5" className="hero-container-image">
+            <img src={Profile} alt="woman-avatar" className="hero-image-main" />
           </MDBCol>
         </MDBRow>
       </MDBContainer>
