@@ -6,9 +6,10 @@ body {
 }
 
 /* Navbar */
-
 .navbar {
   background-color: #fff;
+  box-shadow: none !important;
+  height: 5rem;
   z-index: 1;
 }
 
@@ -17,16 +18,21 @@ body {
   margin: auto !important;
 }
 
+.navbar-items,
+.navbar-brand {
+  font-size: 1.3rem !important;
+}
+
 .navbar-items {
-  font-size: 1.1rem !important;
+  gap: 1rem;
 }
 
 .nav-link {
-  color: #3b71ca !important;
+  /* color: #3b71ca !important; */
 }
 
 .navbar-brand {
-  color: #3b71ca !important;
+  /* color: #3b71ca !important; */
 }
 
 /* Hero section */
