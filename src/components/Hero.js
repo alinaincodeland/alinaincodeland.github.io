@@ -1,15 +1,18 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
-import Profile from "../assets/profile.jpg";
 
 const Hero = () => {
   return (
     <div className="hero" id="home">
       <MDBContainer className="hero-section">
         <MDBRow>
-          <MDBCol md="7" className="hero-text">
-            <h1 className="hero-title">Alina Cuznețov</h1>
-            <h1 className="hero-subtitle"> Frontend Engineer</h1>
+          <MDBCol md="6" className="hero-text">
+            <div>
+              {" "}
+              <h1 className="hero-title">Alina Cuznetov</h1>
+              <h1 className="hero-subtitle"> Frontend Engineer</h1>
+            </div>
+
             <p className="hero-description">
               Hey there! I'm a frontend engineer with a creative twist, calling
               Berlin home. With almost two years of experience, I’ve been diving
@@ -19,23 +22,33 @@ const Hero = () => {
               that value mentorship and diversity. Let's build the future
               together!
             </p>
-            <div class="container-button">
-              <a
-                href="https://drive.google.com/file/d/1ps-7QyuIQyHoTnP2k1dj1RBBUNk5WUoZ/view?usp=drive_link"
-                class="button type--A hero-demo-button"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div class="button__line"></div>
-                <div class="button__line"></div>
-                <span class="button__text">CHECK MY CV</span>
-                <div class="button__drow1"></div>
-                <div class="button__drow2"></div>
-              </a>
-            </div>
+
+            <a
+              className="hero-demo-button"
+              href="https://drive.google.com/file/d/1ps-7QyuIQyHoTnP2k1dj1RBBUNk5WUoZ/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              See my CV
+            </a>
           </MDBCol>
-          <MDBCol md="5" className="hero-container-image">
-            <img src={Profile} alt="woman-avatar" className="hero-image-main" />
+          <MDBCol md="5" className="hero-container-video">
+            <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+              <iframe
+                src="https://player.vimeo.com/video/1003611463?h=b50480f6f2&autoplay=1"
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                frame
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="Rewind and Play: My Frontend Story"
+              ></iframe>
+            </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
