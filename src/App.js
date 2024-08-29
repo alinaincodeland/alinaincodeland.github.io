@@ -19,7 +19,7 @@ export default function Home() {
       <Timeline />
       <Skills />
       <Projects />
-      {/* <ContactForm /> */}
+      <ContactForm />
       <Footer />
       <ScrollToTop showUnder={160}>
         <span>
