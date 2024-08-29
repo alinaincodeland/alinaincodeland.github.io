@@ -28,7 +28,7 @@ export default function Timeline() {
           date="06.23 - 10.23"
         >
           <h4 className="timeline-title">Frontend Development Intern</h4>
-          <h5 className="timeline-subtitle">plista Gmbh</h5>
+          <h5 className="timeline-subtitle">plista GmbH</h5>
 
           <p>
             Mastered Angular, TypeScript, and Storybook by launching frontend
