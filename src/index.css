@@ -62,6 +62,8 @@ body {
   margin-inline: auto;
   font-size: 18px;
   color: #6474b4;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .hero-demo-button {
@@ -84,17 +86,8 @@ body {
   box-shadow: 13px 13px 14px 0px rgba(0, 0, 0, 0.1) !important;
 }
 
-.hero-image-main {
-  display: block;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  max-width: 400px;
-  max-height: 400px;
-  border-radius: 50%;
-  overflow: hidden;
-  object-fit: cover;
-  object-position: center;
+.hero-container-video {
+  margin: auto !important;
 }
 
 /* Timeline section */
@@ -343,7 +336,6 @@ body {
   max-width: 1160px !important;
   margin: auto !important;
   font-size: large;
-  color: rgb(70, 70, 70);
 }
 
 .footer-section {
@@ -377,12 +369,6 @@ body {
     padding-top: 2rem;
     margin-top: 2rem;
   }
-
-  .hero-image-main {
-    margin: auto;
-    max-width: 320px;
-    max-height: 320px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -410,13 +396,6 @@ body {
     margin: auto;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-  }
-
-  .hero-image-main {
-    margin: auto !important;
-    height: 300px;
-    width: auto;
-    display: block;
   }
 
   .contact-form-component {
