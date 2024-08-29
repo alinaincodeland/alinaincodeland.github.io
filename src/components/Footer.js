@@ -12,7 +12,7 @@ export default function Footer() {
             </MDBCol>
             <MDBCol md={4}>
               <a
-                href="https://www.linkedin.com/in/alina-cuznetov-733071138"
+                href="https://www.linkedin.com/in/a-cuznetov/"
                 className="text-reset connect-icon"
                 target="_blank"
                 rel="noreferrer"
@@ -31,7 +31,7 @@ export default function Footer() {
 
             <MDBCol md={6}>
               <p className="footer-name">
-                © {new Date().getFullYear()} Alina Cuznetov
+                © {new Date().getFullYear()} Alina Cuznețov
               </p>
             </MDBCol>
           </MDBRow>

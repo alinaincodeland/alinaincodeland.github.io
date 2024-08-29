@@ -9,7 +9,7 @@ const Hero = () => {
           <MDBCol md="6" className="hero-text">
             <div>
               {" "}
-              <h1 className="hero-title">Alina Cuznetov</h1>
+              <h1 className="hero-title">Alina Cuznețov</h1>
               <h1 className="hero-subtitle"> Frontend Engineer</h1>
             </div>
 
