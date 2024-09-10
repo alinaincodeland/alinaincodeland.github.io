@@ -16,11 +16,10 @@ const Hero = () => {
             <p className="hero-description">
               Hey there! I'm a frontend engineer with a creative twist, calling
               Berlin home. With almost two years of experience, I’ve been diving
-              into the dynamic world of web development. I'm am enthusiastic
-              about applying my current knowledge while constantly pushing
-              myself to learn more. I thrive in forward-thinking environments
-              that value mentorship and diversity. Let's build the future
-              together!
+              into the dynamic world of web development. I'm enthusiastic about
+              applying my current knowledge while constantly pushing myself to
+              learn more. I thrive in forward-thinking environments that value
+              mentorship and diversity. Let's build the future together!
             </p>
 
             <a
