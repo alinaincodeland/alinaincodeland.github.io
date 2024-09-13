@@ -13,7 +13,7 @@ import Timeline from "./components/Timeline.js";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <Timeline />
@@ -33,6 +33,6 @@ export default function Home() {
           />
         </span>
       </ScrollToTop>
-    </div>
+    </>
   );
 }
