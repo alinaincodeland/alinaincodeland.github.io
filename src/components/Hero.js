@@ -34,7 +34,7 @@ const Hero = () => {
           <MDBCol md="5" className="hero-container-video">
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
               <iframe
-                src="https://player.vimeo.com/video/1003611463?h=b50480f6f2&autoplay=1"
+                src="https://player.vimeo.com/video/1003611463?h=b50480f6f2&"
                 style={{
                   position: "absolute",
                   top: 0,
@@ -42,8 +42,6 @@ const Hero = () => {
                   width: "100%",
                   height: "100%",
                 }}
-                frame
-                allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
                 title="Rewind and Play: My Frontend Story"
               ></iframe>
