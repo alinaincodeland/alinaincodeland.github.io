@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24c3ec52.css",
-    "main.js": "/static/js/main.30e10c01.js",
+    "main.js": "/static/js/main.279a79f6.js",
     "static/media/HelloFresh.png": "/static/media/HelloFresh.52a4e110e3a9cc7bddb6.png",
     "static/media/girl-with-laptop.gif": "/static/media/girl-with-laptop.93f13a75d6553d47121d.gif",
     "static/media/WeatherApp.png": "/static/media/WeatherApp.343d710f9d40b859ce47.png",
@@ -29,10 +29,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/index.html",
     "main.24c3ec52.css.map": "/static/css/main.24c3ec52.css.map",
-    "main.30e10c01.js.map": "/static/js/main.30e10c01.js.map"
+    "main.279a79f6.js.map": "/static/js/main.279a79f6.js.map"
   },
   "entrypoints": [
     "static/css/main.24c3ec52.css",
-    "static/js/main.30e10c01.js"
+    "static/js/main.279a79f6.js"
   ]
 }
