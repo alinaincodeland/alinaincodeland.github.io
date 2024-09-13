@@ -50,6 +50,7 @@ const ContactForm = () => {
               src={GirlWithLaptop}
               alt="girl-with-laptop"
               className="form-image"
+              loading="lazy"
             />
           </MDBCol>
           <MDBCol md="6" className="mb-0">
