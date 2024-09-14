@@ -1,9 +1,8 @@
 import "./index.scss";
 import "./reset.scss";
 import "./index.css";
+import { lazy, Suspense } from "react";
 import Hero from "./components/Hero.js";
-import Skills from "./components/Skills.js";
-import Projects from "./components/Projects.js";
 import ContactForm from "./components/ContactForm.js";
 import Footer from "./components/Footer";
 import ScrollToTop from "react-scroll-up";
@@ -11,14 +10,19 @@ import { BsArrowUpCircle } from "react-icons/bs";
 import Navbar from "./components/Navbar";
 import Timeline from "./components/Timeline.js";
 
+const Skills = lazy(() => import("./components/Skills.js"));
+const Projects = lazy(() => import("./components/Projects.js"));
+
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
       <Timeline />
-      <Skills />
-      <Projects />
+      <Suspense fallback={<ContactForm />}>
+        <Skills />
+        <Projects />
+      </Suspense>
       <ContactForm />
       <Footer />
       <ScrollToTop showUnder={160}>
