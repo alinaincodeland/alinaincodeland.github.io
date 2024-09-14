@@ -1,14 +1,17 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import Avatar from "../assets/avatar.png";
 
 const Hero = () => {
   return (
     <div className="hero" id="home">
       <MDBContainer className="hero-section">
         <MDBRow>
-          <MDBCol md="6" className="hero-text">
+          <MDBCol lg="4" className="hero-container-image">
+            <img src={Avatar} alt="Young woman sitting" />
+          </MDBCol>
+          <MDBCol lg="6" md="12" className="hero-text">
             <div>
-              {" "}
               <h1 className="hero-title">Alina Cuznețov</h1>
               <h1 className="hero-subtitle"> Frontend Engineer</h1>
             </div>
@@ -30,22 +33,6 @@ const Hero = () => {
             >
               See my CV
             </a>
-          </MDBCol>
-          <MDBCol md="5" className="hero-container-video">
-            <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
-              <iframe
-                src="https://player.vimeo.com/video/1003611463?h=b50480f6f2&"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                }}
-                allowFullScreen
-                title="Rewind and Play: My Frontend Story"
-              ></iframe>
-            </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
