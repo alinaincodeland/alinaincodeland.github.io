@@ -21,7 +21,7 @@ const techStackIcons = [
   { src: JS, alt: "JS-icon", name: "JavaScript" },
   { src: ReactIcon, alt: "React-icon", name: "React" },
   { src: Angular, alt: "Angular-icon", name: "Angular" },
-  { src: Ruby, alt: "Ruby-icon", name: "Ruby" },
+  { src: Ruby, alt: "Ruby-icon", name: "Ruby on Rails" },
   { src: Typescript, alt: "Typescript-icon", name: "Typescript" },
   { src: HTML, alt: "HTML-icon", name: "HTML5" },
   { src: CSS, alt: "CSS-icon", name: "CSS3" },

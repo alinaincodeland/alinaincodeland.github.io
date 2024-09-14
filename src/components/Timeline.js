@@ -18,9 +18,9 @@ export default function Timeline() {
           <h5 className="timeline-subtitle">sofatutor GmbH</h5>
 
           <p>
-            Honed my skills in Ruby, HAML, and BEM by crafting and running A/B
-            tests to boost user retention, alongside implementing unit and
-            integration tests.
+            Honed my skills in Ruby on Rails, HAML, and BEM by crafting and
+            running A/B tests to boost user retention, alongside implementing
+            unit and integration tests.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
