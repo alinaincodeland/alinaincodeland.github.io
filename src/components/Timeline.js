@@ -8,7 +8,22 @@ export default function Timeline() {
   return (
     <div className="timeline-section" id="trajectory">
       <h1 className="timeline-section-title">Professional trajectory</h1>
+
       <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element"
+          date="10.24 - present"
+        >
+          <h4 className="timeline-title">Frontend Engineer</h4>
+          <h5 className="timeline-subtitle">Seedworld Studios</h5>
+
+          <p>
+            Developed and maintained UIs using Next.js, TypeScript and SCSS,
+            ensuring responsive design and seamless API integrations.
+            Implemented unit and integration tests to enhance code reliability
+            while collaborating closely with designers and backend developers.
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element"
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
@@ -18,7 +33,7 @@ export default function Timeline() {
           <h5 className="timeline-subtitle">sofatutor GmbH</h5>
 
           <p>
-            Honed my skills in Ruby on Rails, HAML, and BEM by crafting and
+            Developed my skills in Ruby on Rails, HAML, and BEM by crafting and
             running A/B tests to boost user retention, alongside implementing
             unit and integration tests.
           </p>
